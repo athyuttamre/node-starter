@@ -3,8 +3,9 @@
   "type": "module",
   "scripts": {
     "dev": "",
-    "build": "",
+    "build": "npm install",
     "test": "",
+    "start": "node --require dotenv/config index.js",
     "deploy": ""
   },
   "devDependencies": {

@@ -1,9 +1,3 @@
 {
-  "name": "web-starter",
-  "scripts": {
-    "dev": "",
-    "build": "",
-    "test": "",
-    "deploy": ""
-  }
+  "name": "web-starter"
 }
