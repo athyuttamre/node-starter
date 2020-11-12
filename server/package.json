@@ -2,10 +2,10 @@
   "name": "server",
   "type": "module",
   "scripts": {
-    "start": "nodemon --require dotenv/config index.js",
+    "start": "nodemon --require dotenv/config src/index.js",
     "build": "npm install",
     "test": "",
-    "run": "node --require dotenv/config index.js"
+    "run": "node --require dotenv/config src/index.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.6",
