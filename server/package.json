@@ -2,13 +2,13 @@
   "name": "server",
   "type": "module",
   "scripts": {
-    "dev": "",
+    "dev": "nodemon --require dotenv/config index.js",
     "build": "npm install",
     "test": "",
-    "start": "node --require dotenv/config index.js",
-    "deploy": ""
+    "start": "node --require dotenv/config index.js"
   },
   "devDependencies": {
+    "nodemon": "^2.0.6",
     "sqlite3": "^5.0.0"
   },
   "dependencies": {
