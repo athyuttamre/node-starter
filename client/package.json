@@ -1,5 +1,6 @@
 {
   "name": "client",
+  "proxy": "http://localhost:3001",
   "scripts": {
     "dev": "react-scripts start",
     "build": "npm install; react-scripts build",
